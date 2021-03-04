@@ -68,7 +68,7 @@ pipeline {
 
           echo "'Deploy to QA' - completed successfully."
 
-          jiraComment body: 'Build Success - Review Build and Deployment Info for Test server', issueKey: 'DEV-2'
+          //jiraComment body: 'Build Success - Review Build and Deployment Info for Test server', issueKey: 'DEV-2'
           //jiraSendDeploymentInfo environmentId: 'Test', environmentName: 'Test', environmentType: 'testing', issueKeys: ['DEV-2'], serviceIds: [''], site: 'jirasquad10.atlassian.net', state: 'successful'
 
         }
